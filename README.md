@@ -1,6 +1,6 @@
 # IJ TOKENS
 
-
+This is a student (goup)project showcasing the use of a smart contract for a quiz app.
 
 ## Installation & Setup
 
