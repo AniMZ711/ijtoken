@@ -1,0 +1,495 @@
+[
+  {
+    "courseId": 1,
+    "courseName": "Vue mit TypeScript",
+    "imageUrl": "https://ionic.io/blog/wp-content/uploads/2021/02/typescript-vue-feature-image.png",
+    "courseDescription": "Lerne die Basics von Vue mit Typescript!",
+    "isCompleted": false,
+    "lections": [
+      {
+        "lectionId": 1,
+        "courseId": 1,
+        "lectionName": "Introduction",
+        "isCompleted": false,
+        "lectionDescription": "Basics of Vue",
+        "difficultyLevel": "EASY",
+        "quizQuestions": [
+          {
+            "questionId": 1,
+            "lectionId": 1,
+            "question": "What is Vue.js primarily used for?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 1, "questionId": 1, "answer": "Back-end development", "isCorrect": false },
+              { "answerOptionId": 2, "questionId": 1, "answer": "Front-end development", "isCorrect": true },
+              { "answerOptionId": 3, "questionId": 1, "answer": "Database management", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 2,
+            "lectionId": 1,
+            "question": "Which of the following is a Vue directive?",
+            "questionType": "MULTIPLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 4, "questionId": 2, "answer": "v-for", "isCorrect": true },
+              { "answerOptionId": 5, "questionId": 2, "answer": "v-if", "isCorrect": true },
+              { "answerOptionId": 6, "questionId": 2, "answer": "forEach", "isCorrect": false }
+            ]
+          }
+        ]
+      },
+      {
+        "lectionId": 2,
+        "courseId": 1,
+        "lectionName": "Components",
+        "isCompleted": false,
+        "lectionDescription": "Deep dive into components",
+        "difficultyLevel": "MEDIUM",
+        "quizQuestions": [
+          {
+            "questionId": 3,
+            "lectionId": 2,
+            "question": "How do you define props in a Vue 3 component using TypeScript?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 7, "questionId": 3, "answer": "Using `defineProps<{ propName: type }>()`", "isCorrect": true },
+              { "answerOptionId": 8, "questionId": 3, "answer": "Using `props: { propName: Type }` in `data()`", "isCorrect": false },
+              { "answerOptionId": 9, "questionId": 3, "answer": "Using `this.props.propName`", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 4,
+            "lectionId": 2,
+            "question": "Which lifecycle hook runs after the component is mounted?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 10, "questionId": 4, "answer": "onBeforeMount", "isCorrect": false },
+              { "answerOptionId": 11, "questionId": 4, "answer": "onMounted", "isCorrect": true },
+              { "answerOptionId": 12, "questionId": 4, "answer": "onDestroy", "isCorrect": false }
+            ]
+          }
+        ]
+      },
+      {
+        "lectionId": 3,
+        "courseId": 1,
+        "lectionName": "Composition API",
+        "isCompleted": false,
+        "lectionDescription": "Learn the Composition API",
+        "difficultyLevel": "HARD",
+        "quizQuestions": [
+          {
+            "questionId": 5,
+            "lectionId": 3,
+            "question": "Which Vue function is used to define reactive state in the Composition API?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 13, "questionId": 5, "answer": "computed()", "isCorrect": false },
+              { "answerOptionId": 14, "questionId": 5, "answer": "reactive()", "isCorrect": true },
+              { "answerOptionId": 15, "questionId": 5, "answer": "useEffect()", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 6,
+            "lectionId": 3,
+            "question": "What is the main benefit of using Vue's Composition API?",
+            "questionType": "MULTIPLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 16, "questionId": 6, "answer": "Better code organization", "isCorrect": true },
+              { "answerOptionId": 17, "questionId": 6, "answer": "Easier to maintain large applications", "isCorrect": true },
+              { "answerOptionId": 18, "questionId": 6, "answer": "It replaces Vuex", "isCorrect": false }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 2,
+    "courseName": "Programmieren 1",
+    "courseDescription": "Grundlagen der Java-Programmierung.",
+    "imageUrl": "https://i.redd.it/iih7wtrf4ywz.png",
+    "isCompleted": false,
+    "lections": [
+      {
+        "lectionId": 1,
+        "courseId": 2,
+        "lectionName": "Variablen und Datentypen",
+        "isCompleted": false,
+        "lectionDescription": "Einführung in Variablen und Datentypen in Java.",
+        "difficultyLevel": "EASY",
+        "quizQuestions": [
+          {
+            "questionId": 3,
+            "lectionId": 1,
+            "question": "Welcher Datentyp wird für ganze Zahlen in Java verwendet?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 7, "questionId": 3, "answer": "double", "isCorrect": false },
+              { "answerOptionId": 8, "questionId": 3, "answer": "int", "isCorrect": true },
+              { "answerOptionId": 9, "questionId": 3, "answer": "String", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 4,
+            "lectionId": 1,
+            "question": "Welche der folgenden Anweisungen deklariert eine Variable korrekt?",
+            "questionType": "MULTIPLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 10, "questionId": 4, "answer": "int zahl = 5;", "isCorrect": true },
+              { "answerOptionId": 11, "questionId": 4, "answer": "variable x = 10;", "isCorrect": false },
+              { "answerOptionId": 12, "questionId": 4, "answer": "String name = \"John\";", "isCorrect": true }
+            ]
+          }
+        ]
+      },
+      {
+        "lectionId": 2,
+        "courseId": 2,
+        "lectionName": "Schleifen und Bedingungen",
+        "isCompleted": false,
+        "lectionDescription": "Kontrollstrukturen in Java.",
+        "difficultyLevel": "MEDIUM",
+        "quizQuestions": [
+          {
+            "questionId": 5,
+            "lectionId": 2,
+            "question": "Welche Schleife wird in Java verwendet, um Code mehrmals auszuführen?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 13, "questionId": 5, "answer": "if", "isCorrect": false },
+              { "answerOptionId": 14, "questionId": 5, "answer": "for", "isCorrect": true },
+              { "answerOptionId": 15, "questionId": 5, "answer": "switch", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 6,
+            "lectionId": 2,
+            "question": "Welche der folgenden sind gültige Vergleichsoperatoren in Java?",
+            "questionType": "MULTIPLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 16, "questionId": 6, "answer": "==", "isCorrect": true },
+              { "answerOptionId": 17, "questionId": 6, "answer": "!=", "isCorrect": true },
+              { "answerOptionId": 18, "questionId": 6, "answer": "&&", "isCorrect": false }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 3,
+    "courseName": "Programmieren 2",
+    "imageUrl": "https://i.redd.it/iih7wtrf4ywz.png",
+    "courseDescription": "Fortgeschrittene Konzepte der Java-Programmierung.",
+    "isCompleted": false,
+    "lections": [
+      {
+        "lectionId": 1,
+        "courseId": 3,
+        "lectionName": "Objektorientierte Programmierung",
+        "isCompleted": false,
+        "lectionDescription": "Konzepte der OOP in Java.",
+        "difficultyLevel": "HARD",
+        "quizQuestions": [
+          {
+            "questionId": 7,
+            "lectionId": 1,
+            "question": "Was ist das Hauptprinzip der objektorientierten Programmierung?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 19, "questionId": 7, "answer": "Funktionen anstelle von Objekten nutzen", "isCorrect": false },
+              { "answerOptionId": 20, "questionId": 7, "answer": "Daten und Methoden in Klassen organisieren", "isCorrect": true },
+              { "answerOptionId": 21, "questionId": 7, "answer": "Nur globale Variablen verwenden", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 8,
+            "lectionId": 1,
+            "question": "Welches Schlüsselwort wird in Java verwendet, um eine Klasse zu erstellen?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 22, "questionId": 8, "answer": "function", "isCorrect": false },
+              { "answerOptionId": 23, "questionId": 8, "answer": "class", "isCorrect": true },
+              { "answerOptionId": 24, "questionId": 8, "answer": "object", "isCorrect": false }
+            ]
+          }
+        ]
+      },
+      {
+        "lectionId": 2,
+        "courseId": 3,
+        "lectionName": "Vererbung und Polymorphismus",
+        "isCompleted": false,
+        "lectionDescription": "Vererbung und Polymorphismus in der objektorientierten Programmierung.",
+        "difficultyLevel": "HARD",
+        "quizQuestions": [
+          {
+            "questionId": 9,
+            "lectionId": 2,
+            "question": "Welches Schlüsselwort wird in Java für Vererbung verwendet?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 25, "questionId": 9, "answer": "extends", "isCorrect": true },
+              { "answerOptionId": 26, "questionId": 9, "answer": "implements", "isCorrect": false },
+              { "answerOptionId": 27, "questionId": 9, "answer": "inherits", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 10,
+            "lectionId": 2,
+            "question": "Was beschreibt Polymorphismus in Java?",
+            "questionType": "MULTIPLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 28, "questionId": 10, "answer": "Die Fähigkeit, Methoden mit gleichem Namen unterschiedlich zu implementieren", "isCorrect": true },
+              { "answerOptionId": 29, "questionId": 10, "answer": "Die Möglichkeit, eine Klasse von mehreren Elternklassen abzuleiten", "isCorrect": false },
+              { "answerOptionId": 30, "questionId": 10, "answer": "Die Möglichkeit, eine Methode in einer Unterklasse zu überschreiben", "isCorrect": true }
+            ]
+          }
+        ]
+      },
+      {
+        "lectionId": 3,
+        "courseId": 3,
+        "lectionName": "Fehlerbehandlung und Exceptions",
+        "isCompleted": false,
+        "lectionDescription": "Arbeiten mit Exceptions und Fehlerbehandlung in Java.",
+        "difficultyLevel": "HARD",
+        "quizQuestions": [
+          {
+            "questionId": 11,
+            "lectionId": 3,
+            "question": "Welche Klasse wird für allgemeine Fehlerbehandlung in Java verwendet?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 31, "questionId": 11, "answer": "Exception", "isCorrect": true },
+              { "answerOptionId": 32, "questionId": 11, "answer": "Error", "isCorrect": false },
+              { "answerOptionId": 33, "questionId": 11, "answer": "Throwable", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 12,
+            "lectionId": 3,
+            "question": "Welche Schlüsselwörter werden für die Fehlerbehandlung in Java verwendet?",
+            "questionType": "MULTIPLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 34, "questionId": 12, "answer": "try", "isCorrect": true },
+              { "answerOptionId": 35, "questionId": 12, "answer": "catch", "isCorrect": true },
+              { "answerOptionId": 36, "questionId": 12, "answer": "finally", "isCorrect": true },
+              { "answerOptionId": 37, "questionId": 12, "answer": "throwError", "isCorrect": false }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 4,
+    "courseName": "Datenbanken",
+    "imageUrl": "https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15493/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png",
+    "courseDescription": "Grundlagen der Datenbankverwaltung und SQL.",
+    "isCompleted": false,
+    "lections": [
+      {
+        "lectionId": 1,
+        "courseId": 4,
+        "lectionName": "Einführung in Datenbanken",
+        "isCompleted": false,
+        "lectionDescription": "Lerne die grundlegenden Konzepte von Datenbanken kennen.",
+        "difficultyLevel": "EASY",
+        "quizQuestions": [
+          {
+            "questionId": 13,
+            "lectionId": 1,
+            "question": "Was ist eine relationale Datenbank?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              {
+                "answerOptionId": 38,
+                "questionId": 13,
+                "answer": "Ein System zur Verwaltung von Daten in Tabellenform",
+                "isCorrect": true
+              },
+              {
+                "answerOptionId": 39,
+                "questionId": 13,
+                "answer": "Ein Netzwerkprotokoll",
+                "isCorrect": false
+              },
+              {
+                "answerOptionId": 40,
+                "questionId": 13,
+                "answer": "Ein Textverarbeitungsprogramm",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionId": 14,
+            "lectionId": 1,
+            "question": "Welcher Standard wird häufig für Datenbankabfragen verwendet?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              {
+                "answerOptionId": 41,
+                "questionId": 14,
+                "answer": "SQL",
+                "isCorrect": true
+              },
+              {
+                "answerOptionId": 42,
+                "questionId": 14,
+                "answer": "HTML",
+                "isCorrect": false
+              },
+              {
+                "answerOptionId": 43,
+                "questionId": 14,
+                "answer": "CSS",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lectionId": 2,
+        "courseId": 4,
+        "lectionName": "SQL Grundlagen",
+        "isCompleted": false,
+        "lectionDescription": "Erfahre, wie man mit SQL Daten abfragt und manipuliert.",
+        "difficultyLevel": "MEDIUM",
+        "quizQuestions": [
+          {
+            "questionId": 15,
+            "lectionId": 2,
+            "question": "Welcher Befehl wird verwendet, um Daten aus einer Tabelle auszuwählen?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              {
+                "answerOptionId": 44,
+                "questionId": 15,
+                "answer": "SELECT",
+                "isCorrect": true
+              },
+              {
+                "answerOptionId": 45,
+                "questionId": 15,
+                "answer": "UPDATE",
+                "isCorrect": false
+              },
+              {
+                "answerOptionId": 46,
+                "questionId": 15,
+                "answer": "DELETE",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionId": 16,
+            "lectionId": 2,
+            "question": "Welcher Befehl fügt neue Daten in eine Tabelle ein?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              {
+                "answerOptionId": 47,
+                "questionId": 16,
+                "answer": "INSERT",
+                "isCorrect": true
+              },
+              {
+                "answerOptionId": 48,
+                "questionId": 16,
+                "answer": "DROP",
+                "isCorrect": false
+              },
+              {
+                "answerOptionId": 49,
+                "questionId": 16,
+                "answer": "ALTER",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 5,
+    "courseName": "Softwareentwicklung",
+    "courseDescription": "Grundlagen der Softwareentwicklung.",
+    "imageUrl": "https://www.quattron.com/wp-content/uploads/2023/12/Prozessablauf-fuer-die-Verzweigungsstrategie-der-Softwareentwicklung-mit-Flussdiagramm-1920x1230.jpg",
+    "isCompleted": false,
+    "lections": [
+      {
+        "lectionId": 1,
+        "courseId": 5,
+        "lectionName": "Grundlagen der Softwareentwicklung",
+        "isCompleted": false,
+        "lectionDescription": "Einführung in die Prinzipien und Methoden der Softwareentwicklung.",
+        "difficultyLevel": "EASY",
+        "quizQuestions": [
+          {
+            "questionId": 37,
+            "lectionId": 1,
+            "question": "Was versteht man unter agiler Softwareentwicklung?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 1, "questionId": 37, "answer": "Ein flexibler Entwicklungsansatz, der auf iterative Prozesse setzt.", "isCorrect": true },
+              { "answerOptionId": 2, "questionId": 37, "answer": "Ein starres Vorgehen nach einem festen Plan.", "isCorrect": false },
+              { "answerOptionId": 3, "questionId": 37, "answer": "Ein einmaliger Entwicklungszyklus ohne Änderungen.", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 38,
+            "lectionId": 1,
+            "question": "Welche Programmiersprachen sind in der Softwareentwicklung verbreitet?",
+            "questionType": "MULTIPLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 4, "questionId": 38, "answer": "Java", "isCorrect": true },
+              { "answerOptionId": 5, "questionId": 38, "answer": "C#", "isCorrect": true },
+              { "answerOptionId": 6, "questionId": 38, "answer": "HTML", "isCorrect": false }
+            ]
+          }
+        ]
+      },
+      {
+        "lectionId": 2,
+        "courseId": 5,
+        "lectionName": "Entwurfsmuster",
+        "isCompleted": false,
+        "lectionDescription": "Erfahre, wie wiederkehrende Designprobleme mit Entwurfsmustern gelöst werden können.",
+        "difficultyLevel": "MEDIUM",
+        "quizQuestions": [
+          {
+            "questionId": 39,
+            "lectionId": 2,
+            "question": "Was ist ein Singleton-Muster?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 7, "questionId": 39, "answer": "Ein Muster, das sicherstellt, dass eine Klasse nur eine Instanz hat.", "isCorrect": true },
+              { "answerOptionId": 8, "questionId": 39, "answer": "Ein Muster, das mehrere Instanzen einer Klasse erstellt.", "isCorrect": false },
+              { "answerOptionId": 9, "questionId": 39, "answer": "Ein Muster, das die Erstellung von Objekten vollständig verhindert.", "isCorrect": false }
+            ]
+          },
+          {
+            "questionId": 40,
+            "lectionId": 2,
+            "question": "Welches Entwurfsmuster wird häufig zur Trennung der Benutzeroberfläche von der Geschäftslogik verwendet?",
+            "questionType": "SINGLE_CHOICE",
+            "answerOptions": [
+              { "answerOptionId": 10, "questionId": 40, "answer": "MVC (Model-View-Controller)", "isCorrect": true },
+              { "answerOptionId": 11, "questionId": 40, "answer": "Singleton", "isCorrect": false },
+              { "answerOptionId": 12, "questionId": 40, "answer": "Decorator", "isCorrect": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  
+  
+]
